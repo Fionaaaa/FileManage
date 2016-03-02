@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/action_cba_cached"
+    android:icon="@drawable/ic_cached_white_24dp"
+    android:title="刷新"
+    app:showAsAction="always" />
+    <item
+    android:id="@+id/action_cba_remove"
+    android:icon="@drawable/ic_delete_white_24dp"
+    android:title="删除"
+    app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cba_creatFolder"
+        android:icon="@drawable/ic_create_new_folder_white_18dp"
+        android:title="新建文件夹" />
+    <item
+        android:id="@+id/action_cba_copy"
+        android:icon="@drawable/ic_content_copy_white_24dp"
+        android:title="复制" />
+    <item
+        android:id="@+id/action_cba_paste"
+        android:enabled="false"
+        android:icon="@drawable/ic_content_paste_white_24dp"
+        android:title="粘贴" />
+    <item
+    android:id="@+id/action_cba_info"
+    android:title="属性" />
+</menu>

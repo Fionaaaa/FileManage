@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort_white_18dp"
+        android:title="排序"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/group_sort"
+                android:checkableBehavior="single"
+                android:enabled="true">
+                <item
+                    android:id="@+id/file_as_char"
+                    android:title="字符优先"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/file_as_folder"
+                    android:title="文件夹优先" />
+                <item
+                    android:id="@+id/file_as_max"
+                    android:title="从大到小" />
+                <item
+                    android:id="@+id/file_as_min"
+                    android:title="从小到大" />
+                <item
+                    android:id="@+id/file_as_change"
+                    android:title="最后修改" />
+            </group>
+
+        </menu>
+    </item>
+</menu>
